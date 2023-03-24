@@ -4,6 +4,8 @@
 def sum_function(a, b):
     if a == 0:
         return b
+    elif b == 0:
+        return a
     else:
         a -= 1
         b += 1
