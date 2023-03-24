@@ -15,6 +15,6 @@ b = int(input("Введите степень: "))
 if b >= 0:
     result = sqrt_function(a, b)
 else:
-    b *= -1
-    result = 1 / sqrt_function(a, b) 
+    c = b * -1
+    result = 1 / sqrt_function(a, c) 
 print(f"{a} ^ {b} = {result}")
