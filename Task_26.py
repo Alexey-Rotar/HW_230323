@@ -10,9 +10,8 @@ def sqrt_function(a, b):
         b -= 1
         return a * sqrt_function(a, b)
 
-
 a = int(input("Введите число: "))
-b = int(input("Введите степень числа: "))
+b = int(input("Введите степень: "))
 if b >= 0:
     result = sqrt_function(a, b)
 else:
